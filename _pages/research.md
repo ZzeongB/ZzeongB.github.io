@@ -10,21 +10,23 @@ items:
 
   - title: Attention Based Cell Detection Enhancer
     image:
-      src: /assets/img/work/cell_detection.png
+      src: /assets/img/research/cell_detection.png
       alt: Cell Detection
     date: Dec 2023 - Feb 2024
     description: Developed a vision transformer model that improves accuracy in cell detection by accounting for interactions between cells, enhancing predictive power and precision in cell behavior analysis.
+    presentation: assets/img/research/Lunit.pdf
   
   - title: Leveraging Data Analytics for Improved Performance Monitoring on HPC Systems
     image:
-      src: /assets/img/work/hpc_performance.png
+      src: /assets/img/research/hpc_performance.png
       alt: HPC Performance
     date: Sep 2023 - Dec 2023
     description: Applied advanced data analytics to optimize performance monitoring on high-performance computing (HPC) systems, identifying bottlenecks and improving resource allocation for more efficient system usage.
+    presentation: assets/img/research/MPCDF.pdf
 
   - title: Multi-View System for High-Quality Digital Human Reconstruction
     image:
-      src: /assets/img/work/digital_human_reconstruction.png
+      src: /assets/img/research/digital_human_reconstruction.png
       alt: Digital Human Reconstruction
     date: Mar 2023 - Aug 2023
     description: Built a multi-view imaging system designed for accurate digital human reconstruction, enabling high-quality 3D representations and contributing to advancements in virtual reality and digital human interfaces.

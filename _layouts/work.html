@@ -33,6 +33,25 @@
               <em class="work-date">{{ item.date }}</em>
               <br>
               {{ item.description }}
+
+              <!-- Links with icons -->
+              <div class="work-links">
+                {% if item.presentation %}
+                  <a href="{{ item.presentation | relative_url }}" target="_blank" title="Presentation">
+                    <i class="fas fa-file-powerpoint"></i> <!-- Presentation icon -->
+                  </a>
+                {% endif %}
+                {% if item.github %}
+                  <a href="{{ item.github }}" target="_blank" title="GitHub Repository">
+                    <i class="fab fa-github"></i> <!-- GitHub icon -->
+                  </a>
+                {% endif %}
+                {% if item.website %}
+                  <a href="{{ item.website }}" target="_blank" title="Website">
+                    <i class="fas fa-globe"></i> <!-- Website icon -->
+                  </a>
+                {% endif %}
+              </div>
             </span>
           </div>
           {% endfor %}

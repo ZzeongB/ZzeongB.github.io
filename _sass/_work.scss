@@ -39,3 +39,14 @@
   font-size: 0.9em; /* Adjust the size as needed */
   color: #777;
 }
+
+.work-links a {
+  font-size: 1.5em;
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.work-links a:hover {
+  color: #95B2F7; /* 호버 색상 */
+}
