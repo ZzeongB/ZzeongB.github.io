@@ -3,7 +3,7 @@
 
 title: Jeongin Park
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I'm Jeongin!
+  Hello, I'm Jeongin Park!
 baseurl: "" # the subpath of the site
 url: "https://ZzeongB.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
@@ -13,11 +13,11 @@ header:
   pages:
     - name: Home
       slug: /
+    - name: Research
     - name: Projects
     - name: Publications
-    - name: Other experiences
+    - name: Extracurricular
     - name: Fun
-    - name: Blog
 
 footer:
   show_powered_by: true
@@ -37,6 +37,8 @@ sass:
 plugins:
   - jekyll-feed
 
+include:
+  - _pages
 # Excluded items
 exclude:
   - .sass-cache/

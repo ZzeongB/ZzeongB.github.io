@@ -5,8 +5,37 @@
 }
 
 .work-bubble {
-  float: left;
+  float: right;
   padding-right: 20px;
-  width: 100px;
+  width: auto;
   height: 100px;
+}
+
+.work-title {
+  font-size: 1.1em; /* Adjust the size as needed */
+}
+.work-date {
+  font-size: 0.8em; /* Adjust the size as needed */
+}
+
+
+.publication-item {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 3em;
+}
+
+.publication-title {
+  font-size: 1em; /* Adjust the size as needed */
+  font-weight: bold;
+}
+
+.publication-authors {
+  font-size: 1em; /* Adjust the size as needed */
+  font-style: italic;
+}
+
+.publication-status {
+  font-size: 0.9em; /* Adjust the size as needed */
+  color: #777;
 }
