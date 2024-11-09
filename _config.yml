@@ -7,16 +7,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/bay" # the subpath of the site
 url: "https://ZzeongB.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
+google_analytics: "G-MG9Q26EVD3"
 
 header:
   pages:
     - name: Home
       slug: /
-    - name: Publications
     - name: Projects
+    - name: Publications
     - name: Other experiences
     - name: Fun
+    - name: Blog
 
 footer:
   show_powered_by: true
