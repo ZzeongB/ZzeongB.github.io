@@ -24,7 +24,8 @@ footer:
     - type: email
       name: Email
       value: parkjeong02@gmail.com
-  follow:    - type: github
+  follow:    
+    - type: github
       name: GitHub
       link: http://github.com/ZzeongB
     
