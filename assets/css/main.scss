@@ -33,3 +33,18 @@ $on-laptop: 800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "site", "work", "blog", "post", "404";
+
+.contact-links {
+  margin-top: 15px;
+}
+
+.contact-links a {
+  font-size: 1.5em; /* 아이콘 크기 조절 */
+  color: #333; /* 아이콘 색상 */
+  margin-right: 15px; /* 아이콘 간격 */
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: #95B2F7; /* 호버 색상 */
+}
