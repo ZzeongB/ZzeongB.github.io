@@ -48,3 +48,65 @@ $on-laptop: 800px;
 .contact-links a:hover {
   color: #95B2F7; /* 호버 색상 */
 }
+
+.page-content {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+/* 섹션 구분선 */
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 10 10;
+}
+
+/* 각 섹션의 박스 스타일 */
+.section {
+  margin-bottom: 5px;
+}
+
+.section strong {
+  color: #222;
+}
+
+.section em {
+  color: #555;
+}
+
+.section .details {
+  margin-left: 15px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+h2 {
+  margin-bottom: 0; /* 기존 값에서 간격을 줄임 */
+}
+
+.date {
+  float: right;
+  color: #888;
+  font-size: 0.8em;
+}
+
+.position {
+  // font-weight: bold;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.advisor {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #555;
+  margin-left: 5px;
+}
+
+.details {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 5px;
+  display: block;
+}
