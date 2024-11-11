@@ -18,7 +18,8 @@ header:
     - name: Research
     - name: Projects
     - name: Publications
-    - name: Extracurricular
+    - name: "Leadership & Involvement"
+      slug: /leadership-involvement/
     - name: Fun
 
 footer:
