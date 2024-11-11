@@ -6,11 +6,11 @@
       class="work-bubble"
     />
     {% endif %}
-  
+
     <span class="work-text">
       <strong class="work-title">
         {% if include.url %}
-          <a href="{{ include.url | relative_url }}">{{ include.title }}</a>
+        <a href="{{ include.url | relative_url }}" class="custom-link">{{ include.title }}</a>
         {% else %}
           {{ include.title }}
         {% endif %}

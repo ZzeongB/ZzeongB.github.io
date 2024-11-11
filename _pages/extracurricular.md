@@ -3,24 +3,7 @@ layout: work
 title: Leadership & Involvement
 slug: /extracurricular
 permalink: /extracurricular/
-items:
-  - title: Northeast Asia Student Round Table (SRT), Chairman
-    date: Sep 2023 - Present
-    description: Led initiatives for collaborative dialogue among Northeast Asian university students, fostering cross-cultural understanding and cooperation.
-  
-  - title: SNU Engineering Honor Society (STEM), Member
-    date: Mar 2023 - Present
-    description: Recognized for academic and leadership excellence, contributing to the STEM community through mentorship and outreach activities.
-  
-  - title: SNU Student Ambassadors (SSA), Vice President
-    date: Mar 2022 - Dec 2022
-    description: Organized university events and managed communications to promote Seoul National University to prospective students and the community. Supported team coordination and outreach strategies during the COVID-19 pandemic.
-  
-  - title: Sharing Class for Educational Volunteer Organizations, Volunteer
-    date: Jun 2022 - Aug 2022
-    description: Taught and mentored underprivileged students, introducing engaging educational methods to make learning enjoyable and accessible. Built strong connections with students to foster a supportive learning environment.
-  
-  - title: SNU CLS Student Council, Member
-    date: Mar 2021 - Jun 2022
-    description: Actively supported student activities and initiatives within the College of Liberal Studies, contributing to event planning and community engagement.
+
 ---
+
+{% include activity.html %}
