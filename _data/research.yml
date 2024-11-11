@@ -1,3 +1,8 @@
+- title: Research Interest in Bridging AI and Human Interaction
+  date: Mar 2024 - Present
+  description: Passionate about designing interfaces and applications that improve human interaction with AI systems, focusing on usability and accessibility to make AI tools intuitive and widely applicable across various fields.
+  url: /projects/hci
+
 - title: Attention Based Cell Detection Enhancer
   image:
     src: /assets/img/research/cell_detection.png
@@ -6,6 +11,7 @@
   description: Developed a vision transformer model that improves accuracy in cell detection by accounting for interactions between cells, enhancing predictive power and precision in cell behavior analysis.
   presentation: assets/img/research/Lunit.pdf
   tags: [Vision Transformer, Medical Imaging, Cell Detection]
+  url: /projects/abcde
 
 - title: Leveraging Data Analytics for Improved Performance Monitoring on HPC Systems
   image:
@@ -15,6 +21,7 @@
   description: Applied advanced data analytics to optimize performance monitoring on high-performance computing (HPC) systems, identifying bottlenecks and improving resource allocation for more efficient system usage.
   presentation: assets/img/research/MPCDF.pdf
   tags: [Data Analytics, HPC, XAI]
+  url: /projects/hpc
 
 - title: Multi-View System for High-Quality Digital Human Reconstruction
   image:
@@ -23,3 +30,4 @@
   date: Mar 2023 - Aug 2023
   description: Built a multi-view imaging system designed for accurate digital human reconstruction, enabling high-quality 3D representations and contributing to advancements in virtual reality and digital human interfaces.
   tags: [3D Reconstruction, Computer Vision]
+  url: /projects/3dhuman
