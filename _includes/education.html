@@ -1,0 +1,9 @@
+{% for edu in site.data.education %}
+<div class="section">
+  <p><strong>{{ edu.institution }}</strong>, {{ edu.location }} <span class="date">{{ edu.date }}</span><br>
+  {% for degree in edu.degrees %}
+    <em>{{ degree }}</em><br>
+  {% endfor %}
+  </p>
+</div>
+{% endfor %}

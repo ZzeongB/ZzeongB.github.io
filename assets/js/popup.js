@@ -1,0 +1,11 @@
+function openPopup(title, date, description) {
+    document.getElementById('popup-title').textContent = title;
+    document.getElementById('popup-date').textContent = date;
+    document.getElementById('popup-description').textContent = description;
+    document.getElementById('popup').style.display = 'flex';
+  }
+  
+  function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+  }
+  

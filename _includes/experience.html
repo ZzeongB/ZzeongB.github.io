@@ -1,0 +1,15 @@
+{% for exp in site.data.experience %}
+<div class="section">
+  <p><strong>{{ exp.company }}</strong>, {{ exp.location }} <span class="date">{{ exp.date }}</span><br>
+  <span class="position">{{ exp.title }}</span> 
+  {% if exp.advisor %}
+    <span class="advisor">(Advisor: {{ exp.advisor }})</span>
+  {% elsif exp.advisors %}
+    <span class="advisor">(Advisors: {{ exp.advisors | join: ", " }})</span>
+  {% endif %}
+  {% if exp.details %}
+    <br><span class="details">({{ exp.details }})</span>
+  {% endif %}
+  </p>
+</div>
+{% endfor %}

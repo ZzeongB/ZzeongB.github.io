@@ -25,3 +25,22 @@ Feel free to check out my work and experience!
       CV
     </a>
 </div>
+
+<div id="education">
+<h3 class="section">Education</h3>
+<hr>
+{% include education.html %}
+</div>
+
+
+<div id="experience">
+<h3 class="section">Experience</h3>
+<hr>
+{% include experience.html %}
+</div>
+
+<div id="all-projects">
+<h3 class="section">Featured Works</h3>
+<hr>
+{% include all-projects.html %}
+</div>

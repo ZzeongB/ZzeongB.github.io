@@ -48,3 +48,186 @@ $on-laptop: 800px;
 .contact-links a:hover {
   color: #95B2F7; /* 호버 색상 */
 }
+
+.page-content {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+/* 섹션 구분선 */
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 10 10;
+}
+
+/* 각 섹션의 박스 스타일 */
+.section {
+  margin-bottom: 0px;
+}
+
+.section strong {
+  color: #222;
+}
+
+.section em {
+  color: #555;
+}
+
+.section .details {
+  margin-left: 15px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+h2 {
+  margin-bottom: 0; /* 기존 값에서 간격을 줄임 */
+}
+
+.date {
+  float: right;
+  color: #888;
+  font-size: 0.8em;
+}
+
+.position {
+  // font-weight: bold;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.advisor {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #555;
+  margin-left: 5px;
+}
+
+.details {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 5px;
+  display: block;
+}
+
+/* 팝업 스타일 */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  justify-content: center; /* 카드가 중앙 정렬되도록 */
+}
+
+
+
+
+/* 카드 스타일 */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 6px;
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+/* 카드 이미지 */
+.card-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* 카드 내용 */
+.card-content {
+  padding: 12px;
+  padding-bottom: 50px; /* 링크와 날짜를 위한 여백 추가 */
+}
+
+.card-title {
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.card-tags {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 4px;
+}
+
+
+/* 링크와 날짜 영역 스타일 */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  // background-color: #f9f9f9;
+  // border-top: 1px solid #ddd;
+  overflow: hidden; /* 링크가 오른쪽으로 벗어나지 않도록 설정 */
+  box-sizing: border-box; /* padding 포함하여 너비 계산 */
+}
+
+/* 링크 아이콘 */
+.card-links {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end; /* 링크를 오른쪽 정렬 */
+  flex-grow: 1;
+}
+
+
+.card-links a {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.card-links a:hover {
+  color: #007acc;
+}
+
+/* 날짜 스타일 */
+.card-date {
+  font-size: 0.85em;
+  color: #777;
+  text-align: right;
+}
