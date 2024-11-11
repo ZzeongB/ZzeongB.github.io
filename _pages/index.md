@@ -17,7 +17,7 @@ profile_picture:
     <a href="https://github.com/ZzeongB" target="_blank" title="GitHub">
       <i class="fab fa-github"></i>
     </a>
-    <a href="{{ item.cv | relative_url }}" target="_blank" title="Download CV">
+    <a href="/curriculum-vitae" target="_blank" title="View CV">
         CV
     </a>
   </div>
@@ -31,7 +31,7 @@ Feel free to check out my work and experience!
 
 <br>
 
-<div id="education">
+<!-- <div id="education">
 <h2 class="section">Education</h2>
 <hr>
 {% include education.html %}
@@ -42,10 +42,10 @@ Feel free to check out my work and experience!
 <h2 class="section">Experience</h2>
 <hr>
 {% include experience.html %}
-</div>
+</div> -->
 
 <div id="featured-work">
 <h2 class="section">Featured Works</h2>
-<hr>
+<!-- <hr> -->
 {% include featured-work.html %}
 </div>

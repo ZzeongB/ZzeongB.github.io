@@ -13,6 +13,8 @@ header:
   pages:
     - name: Home
       slug: /
+    - name: Curriculum Vitae
+      slug: /curriculum-vitae
     - name: Research
     - name: Projects
     - name: Publications
