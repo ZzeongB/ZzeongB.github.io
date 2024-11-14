@@ -4,7 +4,7 @@ title: Lecture Review Analysis with LSTM
 slug: /projects/lecture-review-analysis-with-lstm
 permalink: /projects/lecture-review-analysis-with-lstm/
 date: Mar 2022 - Jun 2022
-presentation: /assets/img/projects/LSTM.pdf
+presentation: ../../assets/img/projects/LSTM.pdf
 ---
 
 ## Motivation & Background
