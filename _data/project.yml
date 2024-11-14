@@ -1,9 +1,3 @@
----
-layout: work
-title: Featured Work
-slug: /projects
-permalink: /projects/
-items:
   - title: Question-Answer-and-Connect
     image:
       src: /assets/img/projects/demo1.png
@@ -12,6 +6,7 @@ items:
     description: Developed a web app enabling interactive question-answer sessions with keyword-based navigation, enhancing user engagement through intuitive design. Integrated OpenAI’s API for dynamic, intelligent responses.
     github: https://github.com/ZzeongB/Question-Answer-and-Connect
     presentation: /assets/img/projects/QuAC.pdf
+    url: /projects/question-answer-and-connect
   
   - title: Ko-Radiology-GPT
     image:
@@ -20,6 +15,7 @@ items:
     date: Mar 2024 - Jun 2024
     description: Built a Korean-language GPT model for real-time Q&A on radiology reports, leveraging translated datasets to assist medical professionals in Korean. This model improves access to specialized medical information in the Korean language.
     github: https://github.com/ZzeongB/Ko-Radiology-GPT
+    url: /projects/ko-radiology-gpt
 
   - title: MAPSEE – A Map-Based Journal App
     image:
@@ -28,10 +24,10 @@ items:
     date: Sep 2022 - Aug 2023
     description: Led front-end development in Team Happetite to launch MAPSEE, a map-based journal app, on the App Store. Implemented interactive maps and enhanced the user experience. Conducted training sessions for junior developers, fostering their skills in front-end development and collaborative project work.
     github: https://github.com/Happetite-app-dev/mapsee
+    url: /projects/mapsee
     
   - title: Lecture Review Analysis with LSTM
     date: Mar 2022 - Jun 2022
     description: Conducted an AI project analyzing lecture reviews using LSTM to identify sentiment and recurring feedback themes. This analysis provided insights into student experiences, assisting in targeted course improvements.
     presentation: /assets/img/projects/LSTM.pdf
-
----
+    url: /projects/lecture-review-analysis-with-lstm
