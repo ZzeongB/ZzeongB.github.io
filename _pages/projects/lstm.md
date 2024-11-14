@@ -8,7 +8,7 @@ presentation: /assets/img/projects/LSTM.pdf
 ---
 
 
-### Motivation & Background
+## Motivation & Background
 
 This project was motivated by the need to efficiently search and classify lecture reviews based on specific criteria, such as the amount of assignments or exams involved. Since lecture reviews provide valuable insights from students, this project aims to leverage these reviews to offer recommendations and categorize lectures based on their characteristics.
 
@@ -18,7 +18,7 @@ Key questions include:
 
 <br>
 
-### Related Works
+## Related Works
 
 This project builds on previous research, such as:
 - Sentiment Analysis: Using word vectors and sentiment analysis for movie reviews (similar to IMDB review analysis).
@@ -26,7 +26,7 @@ This project builds on previous research, such as:
 
 <br>
 
-### Problem Definition
+## Problem Definition
 
 The project focuses on two main goals:
 1. **Sentiment Classification**: Determine whether a review is positive or negative.
@@ -35,7 +35,7 @@ The project focuses on two main goals:
 
 <br>
 
-### Solving Approach
+## Solving Approach
 
 1. **Data Collection**: \\
 Lecture reviews were crawled from popular platforms (e.g., Everytime).
@@ -43,6 +43,7 @@ A multi-step process involved:
   - Gathering lecture links.
   - Crawling each lecture’s review section.
   - Extracting text data for analysis.
+
 
 2. **Data Preprocessing**: 
 - Filtering: Kept only Korean and English text, removing unnecessary symbols.
@@ -61,7 +62,7 @@ Two separate models were designed:
 
 <br>
 
-### Evaluation
+## Evaluation
 
 The models were evaluated based on accuracy:
 - Sentiment Classification achieved high accuracy (~0.9588), indicating effective differentiation between positive and negative reviews.
@@ -73,7 +74,7 @@ The models were evaluated based on accuracy:
 
 <br>
 
-### Lessons Learned & Conclusion
+## Lessons Learned & Conclusion
 
 1. **Challenges with Data Size**: The dataset contained over 8,000 lecture reviews, but only around 400 were accessible, limiting the model’s ability to generalize.
 2. **Accuracy Differences**: While sentiment classification achieved high accuracy, assignment classification was less effective, possibly due to imbalanced data across categories.

@@ -7,13 +7,13 @@ permalink: /projects/ko-radiology-gpt/
 date: Mar 2024 - Jun 2024
 github: https://github.com/ZzeongB/Ko-Radiology-GPT
 ---
-### Objective  
+## Objective  
 The goal of this project is to develop **Radiology-GPT**, a Korean language model designed for real-time question-answering based on chest X-ray reports. Radiology-GPT is tailored to help non-experts, such as patients, understand complex radiology findings through interactive Q&A in Korean. The model is expected to enhance accessibility to radiology information and support efficient healthcare communication.
 
 
 <br>
 
-### Data Collection and Preprocessing
+## Data Collection and Preprocessing
 Data sources included:
 1. **MIMIC-CXR**: A large-scale dataset containing chest X-ray images and corresponding radiology reports in English. Since no comprehensive Korean radiology report dataset was available, we used Google Translate to convert MIMIC-CXR reports into Korean.
 2. **AI Hub**: Korean medical datasets from AI Hub, including Korean-English medical corpora and specialized medical text corpora, were used to supplement the translated data. Around 4,000 samples focused on radiology and related medical terms were selected for this project.
@@ -21,7 +21,7 @@ Data sources included:
 
 <br>
 
-### Data Preprocessing
+## Data Preprocessing
 involved several steps:
 - **Data Translation**: MIMIC-CXR reports were translated into Korean, focusing on preserving medical accuracy. For consistency, extraneous formatting and line breaks were removed prior to translation.
 - **QA Pair Generation**: Using GPT-3.5-turbo, we created question-answer pairs for various tasks (e.g., summarization, paraphrasing, acronym expansion). Questions were generated to represent typical inquiries users might have about X-ray reports, and answers were generated to provide clear, medically accurate responses.
@@ -30,23 +30,33 @@ involved several steps:
 
 <br>
 
-### Model and Training Approach
+## Model and Training Approach
 The model used for fine-tuning was **Llama2-7B-chat**, chosen for its conversational abilities and efficiency. Given the computational constraints, **Low-Rank Adaptation (LoRA)** and **8-bit quantization** were applied to reduce memory usage and make the model suitable for local deployment.
 
 - **LoRA**: This technique updates only a small, decomposed part of the model parameters, significantly reducing memory requirements.
 - **8-bit Quantization**: This converts the model’s parameters from 32-bit to 8-bit, further optimizing memory usage without sacrificing performance.
 
+<div style="text-align: center;">
+  <img src="../../assets/img/projects/kogpt/diagram.png" alt="Diagram" width="600">
+</div>
 
 <br>
 
-### Implementation
+## Implementation
 - The fine-tuning process was conducted using PyTorch and Hugging Face’s Transformers library, leveraging Google Colab’s A100 GPU.
 - We integrated **Gradio** for building a user-friendly interface, allowing real-time Q&A on radiology reports.
 
 
+
+
+<div style="text-align: center;">
+  <img src="../../assets/img/projects/demo2.png" alt="Demo" width="500">
+</div>
+
+
 <br>
 
-### Key Features
+## Key Features
 Radiology-GPT can handle multiple tasks related to radiology report interpretation:
 1. **Summarization**: Providing concise summaries of complex radiology reports.
 2. **Information Extraction**: Extracting specific information from reports.
@@ -56,19 +66,23 @@ Radiology-GPT can handle multiple tasks related to radiology report interpretati
 
 <br>
 
-### Results
+## Results
 Radiology-GPT’s performance was evaluated on four main criteria: **accuracy**, **conciseness**, **consistency**, and **understandability**. The model achieved high scores across these metrics, significantly outperforming baseline models like the unmodified Llama2 and the existing English-based Hippo model in all categories, especially in Q&A and summarization tasks. Radiology-GPT recorded an average accuracy score of 3.21/4.
 
 
+<div style="text-align: center;">
+  <img src="../../assets/img/projects/kogpt/result.png" alt="Result" width="500">
+</div>
+
 <br>
 
-### Challenges and Future Directions 
+## Challenges and Future Directions 
 Although Radiology-GPT successfully meets its primary objectives, some limitations remain. Currently, users need to re-upload the radiology report for each question, which can be improved. Future iterations will focus on making the model retain context across questions, further optimizing it for continuous conversations. Additionally, exploring other Korean medical datasets and refining the model with enhanced evaluation metrics will be prioritized to further boost its usability and reliability.
 
 
 <br>
 
-### My Role in the Radiology-GPT Project
+## My Role in the Radiology-GPT Project
 
 In the Radiology-GPT project, my responsibilities covered a range of key tasks, from data preparation to user experience:
 

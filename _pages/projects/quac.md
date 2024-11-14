@@ -9,7 +9,7 @@ github: https://github.com/ZzeongB/Question-Answer-and-Connect
 presentation: /assets/img/projects/QuAC.pdf
 ---
 
-### Project Overview
+## Project Overview
 
 The "Question, Answer, and Connect" project addresses two major issues commonly encountered in large group chat settings:
 1. **Information Overload**: With a large volume of messages, essential information often gets buried, making it difficult for users to find relevant details.
@@ -20,7 +20,7 @@ Our solution offers an intelligent response system that can **automatically iden
 
 <br>
 
-### Target Users and Personas
+## Target Users and Personas
 
 The primary users of this project are members of large group chats, such as university students in online courses, interns in corporate environments, and new employees in training programs. We developed personas to better understand the needs of these users:
 
@@ -31,7 +31,7 @@ The primary users of this project are members of large group chats, such as univ
 
 <br>
 
-### Implementation
+## Implementation
 
 Our solution utilizes a **React-based web interface** connected to OpenAI's ChatGPT-4 API. The process involves:
 1. **Question Identification**: The system differentiates between questions and answers.
@@ -40,19 +40,26 @@ Our solution utilizes a **React-based web interface** connected to OpenAI's Chat
 
 This architecture allows users to access specific information efficiently and ensures that important answers are more accessible to everyone in the group.
 
+![Diagram](../../assets/img/projects/quac/diagram.png)
 
 <br>
 
-### Prototyping and Design
+## Prototyping and Design
 
 During the brainstorming phase, we explored various ways to structure and present responses within a large group chat. Using Miro for ideation and prototyping, we tested multiple design approaches and refined our final model based on user feedback. Key design features included:
 - **Simplified Keyword-Based Search**: Users can search for keywords to locate relevant messages easily.
 - **Structured Interface**: We designed an organized layout for question-answer interactions to ensure clarity and readability.
 
+<p float="left">
+    <img src="../../assets/img/projects/quac/demo1.png" width="30%" />
+    <img src="../../assets/img/projects/quac/demo2.png" width="30%" />
+    <img src="../../assets/img/projects/quac/demo3.png" width="30%" />
+</p>
+
 
 <br>
 
-### Evaluation
+## Evaluation
 
 To evaluate the system, we conducted qualitative user testing with 8 participants, focusing on:
 1. **Think Aloud Protocol**: Users vocalized their thoughts while navigating the system, helping us identify usability improvements.
@@ -66,6 +73,6 @@ To evaluate the system, we conducted qualitative user testing with 8 participant
 
 <br>
 
-### Conclusion
+## Conclusion
 
 The "Question, Answer, and Connect" project provides a practical solution to the challenges of managing information in large group chats. By leveraging an AI-based response system, it simplifies the process of retrieving relevant answers, reduces the frequency of repetitive questions, and enhances overall communication efficiency. This project has the potential to be expanded with improved keyword matching and broader integration into various group chat platforms, ultimately helping users to save time and streamline information sharing in large, collaborative environments.

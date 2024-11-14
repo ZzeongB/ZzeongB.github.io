@@ -14,7 +14,7 @@ A comprehensive study on performance data analysis, utilizing various machine le
 
 <br>
 
-### Project Goal
+## Project Goal
 
 The objective of this project is to help users optimize their resource usage on HPC (High-Performance Computing) systems. By analyzing performance data from the roofline model and using machine learning methods, we aimed to classify tasks as efficient or inefficient and provide recommendations.
 
@@ -23,13 +23,10 @@ The objective of this project is to help users optimize their resource usage on 
   - Understand which features contribute most to system performance.
   - Provide explainable insights into HPC job efficiency.
 
-**Image**: Screenshot of the project goal section.
-
-
 
 <br>
 
-### Information about Data
+## Information about Data
 
 **Data Overview**  
 We collected performance metrics from HPC tasks, including CPU and GPU data, memory usage, and execution time. This data is pre-processed to remove noise and irrelevant information.
@@ -39,12 +36,13 @@ We collected performance metrics from HPC tasks, including CPU and GPU data, mem
 - Processed to ensure consistency and relevance for machine learning models.
 
 **Image**: Screenshot of the data sample and description.
+![Raw data](../../assets/img/research/hpc/rawdata.png)
 
 
 
 <br>
 
-### Pre-processing Data
+## Pre-processing Data
 
 Data pre-processing involved cleaning, normalizing, and transforming the raw data for analysis. Some of the key steps included:
 
@@ -52,37 +50,34 @@ Data pre-processing involved cleaning, normalizing, and transforming the raw dat
 - **Feature Engineering**: Extracted additional features from raw data to improve model performance.
 - **Handling Missing Values**: Imputed or removed incomplete data points.
 
-**Images**: Screenshots of data pre-processing steps.
+![Preprocessed data](../../assets/img/research/hpc/processeddata.png)
 
 
 
 <br>
 
-### Roofline Model
+## Roofline Model
 
 The roofline model was used to identify computational efficiency across tasks. This model provides a visual representation of performance, helping to distinguish efficient and inefficient tasks.
 
-**Images**: Roofline model charts showing performance classification.
-
-
+<div style="text-align: center;">
+  <img src="../../assets/img/research/hpc/roofline.png" alt="Roofline model" width="400">
+</div>
 
 <br>
 
-### Model Selection: Random Forest
+## Model Selection: Random Forest
 
 After testing multiple methods, **Random Forest** was selected as the primary model due to its interpretability and strong performance with mixed data types.
 
 - **Why Random Forest?**
   - Can handle a large number of features and interactions.
   - Provides feature importance scores, helping to understand what affects HPC efficiency.
-  
-**Images**: Random Forest model diagram and training accuracy.
-
 
 
 <br>
 
-### Feature Importance Analysis
+## Feature Importance Analysis
 
 Through Random Forest, we identified the most impactful features on system performance. Feature importance varied for CPU and GPU tasks, providing insights into the distinct requirements of each.
 
@@ -91,34 +86,38 @@ Through Random Forest, we identified the most impactful features on system perfo
   - Memory Bandwidth
   - Execution Time
 
-**Images**: Feature importance graphs for CPU and GPU.
-
-
+![Feature importance](../../assets/img/research/hpc/result1.png)
 
 <br>
 
-### Additional Testing
+## Explainable AI techniques
 
-To ensure robustness, we conducted additional tests with different parameters and validation techniques. This helped confirm the model's reliability across various configurations.
-
-**Tests**:
-- Different cross-validation methods.
-- Comparison of padding vs. random sampling.
-- Effects of normalization on model accuracy.
-
-**Image**: Screenshot of test results.
+To strengthen model robustness and interpretability, we employed several Explainable AI (XAI) techniques, including SHAP (Shapley Additive Explanations), LIME (Local Interpretable Model-Agnostic Explanations), and a custom random method. These techniques provided a comprehensive view of feature importance, enabling us to validate model behavior across different configurations.
 
 
+**Explanation Methods**:
+
+- SHAP: Used for calculating feature contributions on a global scale, offering consistent insights into model prediction influences.
+- LIME: Provided local interpretability by creating surrogate models for specific instances, ensuring stability on individual samples.
+- Custom Random Method: Served as a baseline, with randomly permuted features helping distinguish significant features from noise.
+
+![Explainable AI](../../assets/img/research/hpc/result2.png)
+<div style="text-align: center; font-size: 0.9em; color: #555;">
+    <strong>Figure Explanation:</strong><br>
+    <em>Left:</em> SHAP values display feature importance, highlighting the impact of each feature on model output. <br>
+    <em>Center:</em> LIME values show instance-specific insights for local interpretability.  <br>
+    <em>Right:</em> Random method results serve as a baseline for feature significance comparison.
+</div>
 
 <br>
 
-### Conclusion
+## Conclusion
 
 The analysis provided valuable insights into the factors affecting HPC job performance, allowing users to better allocate resources and improve efficiency. We achieved high model accuracy and identified key features contributing to HPC performance.
 
 <!-- 
 
-### **Further Directions**
+## **Further Directions**
 
 Future work includes:
 - Exploring other machine learning models to improve prediction accuracy.

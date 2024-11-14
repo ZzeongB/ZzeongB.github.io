@@ -8,13 +8,21 @@ date: Sep 2022 - Aug 2023
 github: https://github.com/Happetite-app-dev/mapsee
 ---
 
-### What is this application?
+## What is this application?
 
 Mapsee is a unique **map-based diary app** that allows you to record memories associated with specific locations, and share them with friends through collaborative folders. Mapsee brings a new dimension to journaling by tying your experiences directly to places on a map, letting you relive your memories and share meaningful places with others.
 
+<p float="left">
+    <img src="../../assets/img/projects/mapsee/2_01.png" width="19%" />
+    <img src="../../assets/img/projects/mapsee/2_02.png" width="19%" />
+    <img src="../../assets/img/projects/mapsee/2_03.png" width="19%" />
+    <img src="../../assets/img/projects/mapsee/2_04.png" width="19%" />
+    <img src="../../assets/img/projects/mapsee/2_05.png" width="19%" />
+</p>
+
 <br>
 
-### Key Features
+## Key Features
 
 - **Write a Diary**  
   Choose a location on the map, jot down your day’s story, and add photos to capture the moment. With Mapsee, you can turn any place into a memory-filled entry in your own map-based journal.
@@ -27,25 +35,25 @@ Mapsee is a unique **map-based diary app** that allows you to record memories as
 
 <br>
 
-### My role in Happetite
-1. **UI Design and UX Optimization**
-   - Screen Design: Designed EditScreen and SearchScreen layouts, focusing on a clean, user-friendly interface.
-   - Interactive Elements: Added animations and a tutorial popup to improve user engagement and onboarding.
-   - Map Interactions: Created a bottom sheet for search results to display location lists alongside the map.
+## My role in Happetite
 
-2. **Location-Based Search and Map Enhancements**
-   - Map Marker Clustering: Organized nearby locations using clustering to reduce map clutter.
-   - Location-Centric Search: Enabled searches based on the user’s current location or the map’s center.
-   - Detailed Search Results: Configured search results to show business names, addresses, and relevant categories.
+1. **Core Implementation**
+- **Map and Search Functionalities**: Integrated Google Maps and Autocomplete APIs to enable proximity-based searches and intuitive map interactions, enhancing usability.
+- **Diary Writing Section**: Developed a diary feature for users to record memories with location-based text entries, photos, and tags.
 
-3. **Data Management and Storage Integration**
-   - Recent Searches with AsyncStorage: Saved recent searches for quick access and streamlined user experience.
-   - Image Storage: Implemented functionality to save and retrieve images for diary entries and markers.
-   - Real-Time Data Handling: Managed dynamic updates for map markers and search results.
+2. **Design and User Engagement**
+- **Intuitive Interface**: Created interactive layouts with animations and tutorials, and designed a bottom sheet for seamless map-based search navigation.
+
+3. **Data Management and Storage**
+- **Optimized Storage**: Used async storage for recent searches and preferences, enabled image saving in diary entries, and maintained real-time data updates for accuracy.
+
+4. **Apple App Review Submission**
+- **App Store Compliance**: Ensured adherence to Apple guidelines, performed bug fixes, and communicated effectively with Apple’s review team for a smooth approval process.
+
 
 <br>
 
-### About Our Team - Happetite
+## About Our Team - Happetite
 
 Hello from **Happetite** [@mapsee_happetite](https://www.instagram.com/mapsee_happetite/)! We are an app development club from Seoul National University, driven by the goal of creating applications that bring happiness and convenience to people’s lives. Happetite is composed of students passionate about startups and tech innovation, with a mix of planners, developers, and designers.
 
