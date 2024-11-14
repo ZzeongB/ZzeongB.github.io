@@ -7,7 +7,6 @@ date: Mar 2022 - Jun 2022
 presentation: /assets/img/projects/LSTM.pdf
 ---
 
-
 ## Motivation & Background
 
 This project was motivated by the need to efficiently search and classify lecture reviews based on specific criteria, such as the amount of assignments or exams involved. Since lecture reviews provide valuable insights from students, this project aims to leverage these reviews to offer recommendations and categorize lectures based on their characteristics.

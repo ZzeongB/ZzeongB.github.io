@@ -18,7 +18,7 @@ header:
     - name: Research
     - name: Project
     - name: "Leadership & Involvement"
-      slug: /leadership-involvement/
+      slug: /leadership-involvement
     - name: Fun
 
 footer:
