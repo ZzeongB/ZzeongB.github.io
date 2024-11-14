@@ -16,7 +16,7 @@ header:
     - name: Curriculum Vitae
       slug: /curriculum-vitae
     - name: Research
-    - name: Projects
+    - name: Project
     - name: "Leadership & Involvement"
       slug: /leadership-involvement/
     - name: Fun

@@ -17,7 +17,7 @@
             {% assign image_files = site.static_files %}
             
             {% for image in image_files %}
-                {% if image.path contains image_directory and (image.extname == ".jpg" or image.extname == ".JPG" or image.extname == ".jpeg" or image.extname == ".JPEG") %}
+                {% if image.path contains image_directory and (image.extname == ".jpg" or image.extname == ".JPG" or image.extname == ".jpeg" or image.extname == ".JPEG" or image.extname == ".png") %}
                 <div class="swiper-slide">
                     <img src="{{ image.path | absolute_url }}">
                 </div>

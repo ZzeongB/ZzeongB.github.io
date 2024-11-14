@@ -1,4 +1,6 @@
-<div class="card" onclick="openPopup('{{ include.title | escape }}', '{{ include.date | escape }}', '{{ include.description | escape }}')">
+<!-- <div class="card" onclick="openPopup('{{ include.title | escape }}', '{{ include.date | escape }}', '{{ include.description | escape }}', '{{ include.url | escape }}', '{{ include.location | escape }}')"> -->
+
+<div class="card" onclick="window.location.href='{{ include.url | escape }}'">
     {% if include.image.src %}
       <img src="{{ include.image.src | absolute_url }}" alt="{{ include.image.alt }}" class="card-image">
     {% endif %}

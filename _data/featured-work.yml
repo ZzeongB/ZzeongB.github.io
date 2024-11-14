@@ -1,13 +1,16 @@
 - title: Attention Based Cell Detection Enhancer
+  location: Lunit Inc.
   image:
     src: /assets/img/research/cell_detection.png
     alt: Cell Detection
   date: Dec 2023 - Feb 2024
   description: Developed a vision transformer model that improves accuracy in cell detection by accounting for interactions between cells, enhancing predictive power and precision in cell behavior analysis.
   presentation: assets/img/research/Lunit.pdf
-  tags: [Vision Transformer, Medical Imaging, Cell Detection]
+  tags: [Vision Transformer, Medical AI, Cell Detection]
+  url: /research/attention-based-cell-detection-enhancer
 
 - title: Leveraging Data Analytics for Improved Performance Monitoring on HPC Systems
+  location: Max Planck Institute - Max Planck Computing and Data Facility (MPCDF)
   image:
     src: /assets/img/research/hpc_performance.png
     alt: HPC Performance
@@ -15,6 +18,17 @@
   description: Applied advanced data analytics to optimize performance monitoring on high-performance computing (HPC) systems, identifying bottlenecks and improving resource allocation for more efficient system usage.
   presentation: assets/img/research/MPCDF.pdf
   tags: [Data Analytics, HPC, XAI]
+  url: /research/leveraging-data-analytics-on-hpc-systems
+
+- title: MAPSEE – A Map-Based Journal App
+  image:
+    src: /assets/img/projects/mapsee.png
+    alt: mapsee
+  date: Sep 2022 - Aug 2023
+  description: Led front-end development in Team Happetite to launch MAPSEE, a map-based journal app, on the App Store. Implemented interactive maps and enhanced the user experience. Conducted training sessions for junior developers, fostering their skills in front-end development and collaborative project work.
+  github: https://github.com/Happetite-app-dev/mapsee
+  tags: [Front-End, App Development, Collaboration]
+  url: /projects/mapsee
 
 # - title: Multi-View System for High-Quality Digital Human Reconstruction
 #   image:
@@ -43,12 +57,3 @@
 #   github: https://github.com/ZzeongB/Ko-Radiology-GPT
 #   tags: [GPT, NLP, Korean, Radiology]
 
-- title: MAPSEE – A Map-Based Journal App
-  image:
-    src: /assets/img/projects/mapsee.png
-    alt: mapsee
-  date: Sep 2022 - Aug 2023
-  description: Led front-end development in Team Happetite to launch MAPSEE, a map-based journal app, on the App Store. Implemented interactive maps and enhanced the user experience. Conducted training sessions for junior developers, fostering their skills in front-end development and collaborative project work.
-  github: https://github.com/Happetite-app-dev/mapsee
-  tags: [Front-End, App Development, Collaboration]
-  
