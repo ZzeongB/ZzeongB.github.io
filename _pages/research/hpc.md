@@ -82,9 +82,8 @@ After testing multiple methods, **Random Forest** was selected as the primary mo
 Through Random Forest, we identified the most impactful features on system performance. Feature importance varied for CPU and GPU tasks, providing insights into the distinct requirements of each.
 
 - **Top Features**:
-  - CPU Usage
-  - Memory Bandwidth
-  - Execution Time
+  - cache misses
+  - cache references
 
 ![Feature importance](../../assets/img/research/hpc/result1.png)
 
@@ -97,17 +96,17 @@ To strengthen model robustness and interpretability, we employed several Explain
 
 **Explanation Methods**:
 
-- SHAP: Used for calculating feature contributions on a global scale, offering consistent insights into model prediction influences.
-- LIME: Provided local interpretability by creating surrogate models for specific instances, ensuring stability on individual samples.
-- Custom Random Method: Served as a baseline, with randomly permuted features helping distinguish significant features from noise.
+- SHAP <em>(Left)</em>: Used for calculating feature contributions on a global scale, offering consistent insights into model prediction influences.
+- LIME <em>(Center)</em>: Provided local interpretability by creating surrogate models for specific instances, ensuring stability on individual samples.
+- Custom Random Method <em>(Right)</em>: Served as a baseline, with randomly permuted features helping distinguish significant features from noise.
 
 ![Explainable AI](../../assets/img/research/hpc/result2.png)
-<div style="text-align: center; font-size: 0.9em; color: #555;">
+<!-- <div style="text-align: center; font-size: 0.9em; color: #555;">
     <strong>Figure Explanation:</strong><br>
     <em>Left:</em> SHAP values display feature importance, highlighting the impact of each feature on model output. <br>
     <em>Center:</em> LIME values show instance-specific insights for local interpretability.  <br>
     <em>Right:</em> Random method results serve as a baseline for feature significance comparison.
-</div>
+</div> -->
 
 <br>
 
