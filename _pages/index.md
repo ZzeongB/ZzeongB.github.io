@@ -23,7 +23,7 @@ profile_picture:
   </div>
 </div>
 
-I am passionate about enhancing **visual perception and cognition** by transforming complex data into accessible, interpretable, and actionable insights for non-experts. Using intuitive visualizations and immersive technologies, I aim to make vast datasets practically useful and impactful.
+I am passionate about enhancing **explainable AI** by transforming complex data into accessible, interpretable, and actionable insights for non-experts. Using intuitive visualizations and immersive technologies, I aim to make vast datasets practically useful and impactful.
 
 Currently an undergraduate at Seoul National University, fully funded by the Presidential Science Scholarship.
 
