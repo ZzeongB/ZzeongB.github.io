@@ -16,6 +16,14 @@
         {% endif %}
       </strong>
       <br>
+      {% if include.organization %}
+        <span class="work-organization">{{ include.organization }}</span>
+        <br>
+      {% endif %}
+      {% if include.location %}
+        <span class="work-location">{{ include.location }}</span>
+        <br>
+      {% endif %}
       <em class="work-date">{{ include.date }}</em>
       <br>
       {{ include.description }}

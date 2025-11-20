@@ -12,7 +12,7 @@
     <span class="publication-text">
       <strong class="publication-title">{{ item.title }}</strong>
       <br>
-      <em class="publication-authors">{{ item.authors }}</em>
+      <em class="publication-authors">{{ item.authors | replace: "Jeongin Park", "<u>Jeongin Park</u>" }}</em>
       <br>
       <span class="publication-status">{{ item.status }}</span>
       <br>
