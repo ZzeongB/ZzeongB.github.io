@@ -17,15 +17,15 @@ profile_picture:
     <a href="https://github.com/ZzeongB" target="_blank" title="GitHub">
       <i class="fab fa-github"></i>
     </a>
-    <a href="/curriculum-vitae" target="_blank" title="View CV">
+    <!-- <a href="/curriculum-vitae" target="_blank" title="View CV">
         CV
-    </a>
+    </a> -->
   </div>
 </div>
 
-I am passionate about enhancing **explainable AI**. I aim to make AI accessible and reliable, creating systems that seamlessly collaborate with humans. 
+I design and study human–AI interfaces that enable people to interact with complex information—visual, auditory, and generative—more intuitively and adaptively.
 
-Currently an undergraduate at Seoul National University, fully funded by the Presidential Science Scholarship.
+I am currently a Master’s student at Seoul National University and previously completed my undergraduate studies at SNU, fully funded by the Presidential Science Scholarship.
 
 Feel free to my work and experiences!
 
@@ -44,8 +44,9 @@ Feel free to my work and experiences!
 {% include experience.html %}
 </div> -->
 
-<div id="featured-work">
-<h2 class="section">Featured Works</h2>
-<!-- <hr> -->
-{% include featured-work.html %}
+<div id="publications">
+<h2 class="section">Publications</h2>
+{% include publications.html %}
 </div>
+
+<br>

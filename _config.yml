@@ -13,8 +13,8 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Curriculum Vitae
-      slug: /curriculum-vitae
+    - name: Publications
+      slug: /publications
     - name: Research
     - name: Project
     - name: "Leadership & Involvement"

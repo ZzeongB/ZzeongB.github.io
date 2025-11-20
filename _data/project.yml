@@ -1,3 +1,11 @@
+  - title: VR-Based Geometry Learning Application (PI, 20M KRW Grant)
+    # image:
+    #   src: /assets/img/projects/demo1.png
+    #   alt: VR-Geometry-Education
+    date: Dec 2024 - May 2025
+    description: Developed an immersive Vision Pro–based VR learning app for 3D geometry education, featuring intuitive cube manipulation, projection-based visualization, and curriculum-aligned problem solving—funded through an independently secured 20M KRW grant. 
+    url: /projects/vr-education
+  
   - title: Question-Answer-and-Connect
     image:
       src: /assets/img/projects/demo1.png

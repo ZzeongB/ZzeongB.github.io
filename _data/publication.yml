@@ -1,14 +1,15 @@
-  - title: Stop Overtrusting t-SNE and UMAP for Visual Analytics
+  - title: Dataset-Adaptive Dimensionality Reduction
+    authors: Hyeon Jeon, Jeongin Park, Soohyun Lee, Dae Hyun Kim, Sungbok Shin, and Jinwook Seo
+    status: IEEE Transactions on Visualization and Computer Graphics (Proc. VIS 2025)
+    teaser: /assets/img/publications/jeon_datasetadaptive.pdf  # Optional: path to teaser image
+    arxiv: https://arxiv.org/abs/2507.11984  # Optional: DOI (just the ID part, not full URL)
+    pdf: /assets/pdf/jeon_datasetadaptive.pdf  # Optional: path to PDF file
+  
+  - title: Stop Misusing t-SNE and UMAP for Visual Analytics
     authors: Hyeon Jeon, Jeongin Park, Sungbok Shin, and Jinwook Seo
-    status: Submitted
-    description: Investigated the limitations of t-SNE and UMAP in visual analytics to promote cautious and effective use of these techniques in high-dimensional data analysis.
+    status: arXiv Preprint
+    teaser: /assets/img/publications/jeon_stopmisusing.pdf  # Optional: path to teaser image
+    arxiv: https://arxiv.org/abs/2506.08725  # Optional: DOI (just the ID part, not full URL)
+    pdf: /assets/pdf/jeon_stopmisusing.pdf  # Optional: path to PDF file
   
-  - title: VividReview-Restoring the Dynamic and Context-rich Nature of Live Lectures
-    authors: Yeongin Kim, Suyeon Hwang, Min Hyeong Kim, Jeongin Park, Hyeon Jeon, and Jinwook Seo
-    status: Submitted
-    description: Proposed a system for enhancing the review experience of live lectures by restoring contextual and dynamic elements to facilitate better understanding and retention.
-  
-  - title: Measuring the Structural Complexity of Datasets for Reliable and Efficient Dimensionality Reduction
-    authors: Hyeon Jeon, Soohyun Lee, Jeongin Park, Dae Hyun Kim, Sungbok Shin, and Jinwook Seo
-    status: Submitted
-    description: Developed a metric to measure dataset complexity for improving the reliability and efficiency of dimensionality reduction techniques.
+
