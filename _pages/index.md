@@ -28,7 +28,7 @@ I am currently a Master’s student in the [HCI Lab](http://hcil.snu.ac.kr/) at 
 
 I also have research and industry experience at [Lunit Inc.](https://www.lunit.io/) and the [Max Planck Institute](https://www.mpcdf.mpg.de/) in Germany.
 
-Feel free to my work and experiences!
+Feel free to explore my work and experiences!
 
 
 <br>
