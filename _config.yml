@@ -19,7 +19,6 @@ header:
     - name: Project
     - name: "Leadership & Involvement"
       slug: /leadership-involvement
-    - name: Fun
 
 footer:
   show_powered_by: true
