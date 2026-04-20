@@ -2,7 +2,7 @@
   authors: Jeongin Park, Mingyu An, Hyunseo Yang, Junhyeong Hwangbo, Min Hyeong Kim, Hyeon Jeon, and Jinwook Seo
   status: In 2026 IEEE 19th Pacific Visualization Conference (PacificVis '26)
   teaser: /assets/img/publications/directvis.png
-  pdf: /assets/pdf/_PacificVis_Short__DirectVis.pdf
+  pdf: /assets/pdf/directvis.pdf
 
 - title: Dataset-Adaptive Dimensionality Reduction
   authors: Hyeon Jeon, Jeongin Park, Soohyun Lee, Dae Hyun Kim, Sungbok Shin, and Jinwook Seo
