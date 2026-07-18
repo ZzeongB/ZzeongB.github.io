@@ -7,10 +7,10 @@
 // Our variables
 $base-url: "{{ site.baseurl }}";
 
-$base-font-family: Charter, Georgia, Helvetica, Arial, sans-serif;
-$base-font-size: 16px;
+$base-font-family: "Open Sans", sans-serif;
+$base-font-size: 15px;
 $small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.7;
+$base-line-height: 1.55;
 
 $spacing-unit: 30px;
 
@@ -42,8 +42,8 @@ $on-laptop: 800px;
 
 .home-description {
   margin-right: 20px;
-  font-family: "Roboto", sans-serif !important;
-  font-weight: 400;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300;
 }
 
 .contact-links a {
@@ -73,6 +73,7 @@ hr {
 /* 각 섹션의 박스 스타일 */
 .section {
   margin-bottom: 0px;
+  font-weight: 500;
 }
 
 .section strong {
