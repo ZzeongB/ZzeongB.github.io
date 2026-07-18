@@ -13,12 +13,6 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Publications
-      slug: /publications
-    - name: Research
-    - name: Project
-    - name: "Leadership & Involvement"
-      slug: /leadership-involvement
 
 footer:
   show_powered_by: true

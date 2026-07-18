@@ -30,8 +30,6 @@ I am currently a visiting intern at the [Augmented Perception Lab](https://augme
 
 I also have research and industry experience at [Lunit Inc.](https://www.lunit.io/) and the [Max Planck Institute](https://www.mpcdf.mpg.de/) in Germany.
 
-Feel free to explore my work and experiences!
-
 
 <br>
 
