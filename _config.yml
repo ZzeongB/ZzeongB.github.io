@@ -3,16 +3,11 @@
 
 title: Jeongin Park
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I'm Jeongin Park!
+  Jeongin Park
 baseurl: "/" # the subpath of the site
 url: "https://ZzeongB.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "G-MG9Q26EVD3"
-
-header:
-  pages:
-    - name: Home
-      slug: /
 
 footer:
   show_powered_by: true

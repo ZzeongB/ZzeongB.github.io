@@ -8,7 +8,7 @@ profile_picture:
 
 
 <div style="display: flex;">
-  <h1 style="margin-right: 20px;">Hi, I'm Jeongin Park</h1>
+  <h1 class="home-description">Jeongin Park</h1>
   <!-- Social & Contact Links -->
   <div class="contact-links">
     <a href="mailto:parkjeong02@gmail.com" title="Email">
