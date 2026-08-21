@@ -14,7 +14,7 @@ profile_picture:
     <a href="mailto:parkjeong02@gmail.com" title="Email">
       <i class="fas fa-envelope"></i>
     </a>
-    <a href="https://github.com/ZzeongB" target="_blank" title="GitHub">
+    <a href="https://github.com/jeonginp" target="_blank" title="GitHub">
       <i class="fab fa-github"></i>
     </a>
     <!-- <a href="/curriculum-vitae" target="_blank" title="View CV">
@@ -30,7 +30,7 @@ I received my B.S. in Computer Science and Engineering and Mathematical Sciences
 
 From January to July 2026, I was a visiting intern at the [Augmented Perception Lab](https://augmented-perception.org/) at Carnegie Mellon University, collaborating with [Prof. David Lindlbauer](https://www.davidlindlbauer.com).
 
-I also have research and industry experience at [Lunit Inc.](https://www.lunit.io/) and the [Max Planck Institute](https://www.mpcdf.mpg.de/) in Germany.
+I also have research and industry experience at [Lunit Inc.](https://www.lunit.io/) and the [Max Planck Institute](https://www.mpcdf.mpg.de/).
 
 
 <br>
@@ -53,9 +53,9 @@ I also have research and industry experience at [Lunit Inc.](https://www.lunit.i
 {% include publications.html %}
 </div>
 
-<div id="projects" class="home-section">
+<!-- <div id="projects" class="home-section">
 <h2 class="section">Projects</h2>
 {% include project.html %}
-</div>
+</div> -->
 
 <br>
