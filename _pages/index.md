@@ -24,9 +24,7 @@ profile_picture:
 </div>
 I design and study human–AI interfaces that help people interact with complex visual, auditory, and generative information more intuitively and adaptively.
 
-I am currently a Master’s student in the [HCI Lab](http://hcil.snu.ac.kr/) at Seoul National University (SNU), advised by [Prof. Jinwook Seo](https://hcil.snu.ac.kr/people/jinwook-seo). 
-
-I received my B.S. in Computer Science and Engineering and Mathematical Sciences from Seoul National University, supported by the Presidential Science Scholarship.
+I am currently a Master’s student in the [HCI Lab](http://hcil.snu.ac.kr/) at Seoul National University (SNU), advised by [Prof. Jinwook Seo](https://hcil.snu.ac.kr/people/jinwook-seo). I received my B.S. in Computer Science and Engineering and Mathematical Sciences from Seoul National University, supported by the Presidential Science Scholarship.
 
 From January to July 2026, I was a visiting intern at the [Augmented Perception Lab](https://augmented-perception.org/) at Carnegie Mellon University, collaborating with [Prof. David Lindlbauer](https://www.davidlindlbauer.com).
 
