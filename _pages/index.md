@@ -35,14 +35,14 @@ I also have research and industry experience at [Lunit Inc.](https://www.lunit.i
 
 <br>
 
-<!-- <div id="education">
+<div id="education">
 <h2 class="section">Education</h2>
 <hr>
 {% include education.html %}
 </div>
 
 
-<div id="experience">
+<!-- div id="experience">
 <h2 class="section">Experience</h2>
 <hr>
 {% include experience.html %}
