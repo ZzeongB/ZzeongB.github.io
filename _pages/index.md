@@ -47,9 +47,8 @@ I also have research and industry experience at [Lunit Inc.](https://www.lunit.i
 </div>
 
 
-<div id="education">
+<div id="education" class="home-section">
 <h2 class="section">Education</h2>
-<hr>
 {% include education.html %}
 </div>
 
