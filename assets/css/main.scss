@@ -73,7 +73,13 @@ hr {
 /* 각 섹션의 박스 스타일 */
 .section {
   margin-bottom: 0px;
+  font-size: 1.3em;
   font-weight: 500;
+  line-height: 1.5;
+}
+
+.home-section + .home-section {
+  margin-top: 3rem;
 }
 
 .section strong {

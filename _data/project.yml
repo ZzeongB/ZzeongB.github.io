@@ -5,6 +5,14 @@
     date: Dec 2024 - May 2025
     description: Developed an immersive Vision Pro–based VR learning app for 3D geometry education, featuring intuitive cube manipulation, projection-based visualization, and curriculum-aligned problem solving—funded through an independently secured 20M KRW grant. 
     url: /projects/vr-education
+
+  - title: SNU Social Responsibility "For All" Project
+    date: Mar 2025 - Jun 2025
+    description: Developed a mobile application to support independent museum and exhibition visits for individuals with visual impairments. Designed and implemented a computer vision-based indoor localization system and a user-centered navigation interface.
+
+  - title: BugRider - 3D Adventure Game Development
+    date: Mar 2025 - Jun 2025
+    description: Led a five-member development team, overseeing project planning, task allocation, and development schedule management. Created 3D assets and animations using Blender, and developed game controls and audio systems in Unity.
   
   - title: Question-Answer-and-Connect
     image:

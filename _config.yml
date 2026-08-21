@@ -5,7 +5,7 @@ title: Jeongin Park
 description: >- # this means to ignore newlines until "baseurl:"
   Jeongin Park
 baseurl: "/" # the subpath of the site
-url: "https://ZzeongB.github.io" # the base hostname & protocol for the site
+url: "https://jeonginp.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "G-MG9Q26EVD3"
 
@@ -18,7 +18,7 @@ footer:
   follow:    
     - type: github
       name: GitHub
-      link: http://github.com/ZzeongB
+      link: http://github.com/jeonginp
     
 # Build settings
 markdown: kramdown

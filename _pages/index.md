@@ -24,9 +24,11 @@ profile_picture:
 </div>
 I design and study human–AI interfaces that help people interact with complex visual, auditory, and generative information more intuitively and adaptively.
 
-I am currently a Master’s student in the [HCI Lab](http://hcil.snu.ac.kr/) at Seoul National University (SNU), advised by Prof. Jinwook Seo, and previously completed my undergraduate studies at SNU fully funded by the Presidential Science Scholarship.
+I am currently a Master’s student in the [HCI Lab](http://hcil.snu.ac.kr/) at Seoul National University (SNU), advised by [Prof. Jinwook Seo](https://hcil.snu.ac.kr/people/jinwook-seo). 
 
-From January to July 2026, I was a visiting intern at the [Augmented Perception Lab](https://augmented-perception.org/) at Carnegie Mellon University.
+I received my B.S. in Computer Science and Engineering and Mathematical Sciences from Seoul National University, supported by the Presidential Science Scholarship.
+
+From January to July 2026, I was a visiting intern at the [Augmented Perception Lab](https://augmented-perception.org/) at Carnegie Mellon University, collaborating with [Prof. David Lindlbauer](https://www.davidlindlbauer.com).
 
 I also have research and industry experience at [Lunit Inc.](https://www.lunit.io/) and the [Max Planck Institute](https://www.mpcdf.mpg.de/) in Germany.
 
@@ -46,9 +48,14 @@ I also have research and industry experience at [Lunit Inc.](https://www.lunit.i
 {% include experience.html %}
 </div> -->
 
-<div id="publications">
+<div id="publications" class="home-section">
 <h2 class="section">Publications</h2>
 {% include publications.html %}
+</div>
+
+<div id="projects" class="home-section">
+<h2 class="section">Projects</h2>
+{% include project.html %}
 </div>
 
 <br>
