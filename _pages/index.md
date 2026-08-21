@@ -35,13 +35,6 @@ I also have research and industry experience at [Lunit Inc.](https://www.lunit.i
 
 <br>
 
-<div id="education">
-<h2 class="section">Education</h2>
-<hr>
-{% include education.html %}
-</div>
-
-
 <!-- div id="experience">
 <h2 class="section">Experience</h2>
 <hr>
@@ -51,6 +44,13 @@ I also have research and industry experience at [Lunit Inc.](https://www.lunit.i
 <div id="publications" class="home-section">
 <h2 class="section">Publications</h2>
 {% include publications.html %}
+</div>
+
+
+<div id="education">
+<h2 class="section">Education</h2>
+<hr>
+{% include education.html %}
 </div>
 
 <!-- <div id="projects" class="home-section">
