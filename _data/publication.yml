@@ -2,6 +2,7 @@
   authors: Jeongin Park, Mingyu An, Hyunseo Yang, Junhyeong Hwangbo, Min Hyeong Kim, Hyeon Jeon, and Jinwook Seo
   status: In 2026 IEEE 19th Pacific Visualization Conference (PacificVis '26)
   teaser: /assets/img/publications/directvis.png
+  doi: 10.1109/PacificVis68791.2026.00014
   pdf: /assets/pdf/directvis.pdf
 
 - title: Stop Misusing t-SNE and UMAP for Visual Analytics
@@ -15,5 +16,5 @@
   authors: Hyeon Jeon, Jeongin Park, Soohyun Lee, Dae Hyun Kim, Sungbok Shin, and Jinwook Seo
   status: IEEE Transactions on Visualization and Computer Graphics (Proc. VIS 2025)
   teaser: /assets/img/publications/jeon_datasetadaptive.png
-  arxiv: https://arxiv.org/abs/2507.11984
+  doi: 10.1109/TVCG.2025.3634784
   pdf: /assets/pdf/jeon_datasetadaptive.pdf
