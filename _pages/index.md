@@ -14,9 +14,6 @@ profile_picture:
     <a href="mailto:parkjeong02@gmail.com" title="Email">
       <i class="fas fa-envelope"></i>
     </a>
-    <a href="https://github.com/jeonginp" target="_blank" title="GitHub">
-      <i class="fab fa-github"></i>
-    </a>
     <a href="/curriculum-vitae" target="_blank" title="View CV">
         CV
     </a>
