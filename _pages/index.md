@@ -17,9 +17,9 @@ profile_picture:
     <a href="https://github.com/jeonginp" target="_blank" title="GitHub">
       <i class="fab fa-github"></i>
     </a>
-    <!-- <a href="/curriculum-vitae" target="_blank" title="View CV">
+    <a href="/curriculum-vitae" target="_blank" title="View CV">
         CV
-    </a> -->
+    </a>
   </div>
 </div>
 I design and study human–AI interfaces that help people interact with complex visual, auditory, and generative information more intuitively and adaptively.
